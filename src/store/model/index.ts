@@ -117,6 +117,7 @@ import {SmythsToys} from './smythstoys';
 import {SmythsToysIE} from './smythstoys-ie';
 import {Spielegrotte} from './spielegrotte';
 import {Store} from './store';
+import {CommanderX16} from './commanderx16';
 import {StormComputers} from './storm';
 import {Target} from './target';
 import {TescoIE} from './tesco-ie';
@@ -136,6 +137,7 @@ import {Zotac} from './zotac';
 import {logger} from '../../logger';
 
 export const storeList = new Map([
+  [CommanderX16.name, CommanderX16],
   [AComPC.name, AComPC],
   [Adorama.name, Adorama],
   [Allneeds.name, Allneeds],

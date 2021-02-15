@@ -11,6 +11,7 @@ export type Pricing = {
 };
 
 export type Brand =
+  | 'commander'
   | 'test:brand'
   | 'captcha-deterrent'
   | 'amd'
@@ -37,6 +38,7 @@ export type Brand =
   | 'zotac';
 
 export type Series =
+  | 'x16'
   | 'test:series'
   | 'captcha-deterrent'
   | '3060ti'
@@ -58,6 +60,7 @@ export type Series =
   | 'xboxss';
 
 export type Model =
+  | 'x16'
   | 'test:model'
   | 'captcha-deterrent'
   | '5600x'

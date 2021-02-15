@@ -70,6 +70,8 @@ async function main() {
       width: config.page.width,
     },
     headless: config.browser.isHeadless,
+    executablePath:
+      '/Applications/Google Chrome.app/Contents/MacOS/Google Chrome',
   });
 
   config.browser.userAgent = await browser.userAgent();
